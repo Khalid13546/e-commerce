@@ -1,0 +1,22 @@
+.head {
+    padding-top: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wrap {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    gap: calc(var(--base)/2) var(--base);
+    padding: auto;
+}
+.logo {
+    width: 170px;
+    padding: 0px;
+}
+.hide {
+    display: none;
+}
